@@ -1,0 +1,13 @@
+{
+    "name": "scms-api",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "json-server": "^0.17.4"
+    }
+}
