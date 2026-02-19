@@ -1,0 +1,102 @@
+{
+    "courses": [
+        {
+            "id": "1",
+            "name": "React JS",
+            "description": "Learn React from basics",
+            "code": "CS6",
+            "duration": "3 Months",
+            "fee": 500
+        },
+        {
+            "id": "5b53",
+            "name": "Django Rest Framework",
+            "description": "Build real-world RESTful APIs using Django Rest Framework. You’ll cover CRUD, serializers, viewsets, routers, filtering, pagination, and authentication (JWT/session), then deploy an API-ready backend.",
+            "code": "DRS",
+            "duration": "8",
+            "fee": 6000
+        },
+        {
+            "id": "ba7b",
+            "name": "Data Science",
+            "description": "This course introduces the core concepts and practical tools used in Data Science. Topics include data collection and preprocessing, exploratory data analysis (EDA), statistical reasoning, data visualization, predictive modeling, and machine learning fundamentals. Students gain hands-on experience using Python (NumPy, pandas, Matplotlib/Seaborn, scikit-learn) to build data pipelines, evaluate models, and communicate insights through reports and dashboards.",
+            "code": "DS5",
+            "duration": "18",
+            "fee": 200000
+        },
+        {
+            "id": "3122",
+            "name": "Business Administration",
+            "description": "Business Administration focuses on planning, organizing, and managing business operations such as finance, marketing, human resources, and strategy to help organizations run efficiently and grow.",
+            "code": "BA",
+            "duration": "24",
+            "fee": 60000
+        },
+        {
+            "id": "2d3a",
+            "name": "Procurement and Supply Chain",
+            "description": "Procurement and Supply Chain Management is a course that introduces learners to how organizations plan, source, purchase, move, store, and deliver goods and services efficiently. It covers key topics such as procurement processes, supplier selection and evaluation, tendering and contract management, inventory and warehouse management, logistics and transportation, demand forecasting, and risk management. Learners also explore ethics, compliance, and cost control, and how technology (e-procurement, ERP systems, and data analytics) supports supply chain performance. By the end of the course, students can design and improve supply chain strategies that reduce costs, ensure quality, and support timely delivery in both public and private sector environments.",
+            "code": "PSC",
+            "duration": "20",
+            "fee": 10000
+        },
+        {
+            "id": "8748",
+            "name": "Law",
+            "description": "Law is a course that introduces the principles, structures, and processes of legal systems. It covers how laws are made and applied, key legal concepts, and how legal reasoning is used to analyze disputes and protect rights in society.",
+            "code": "LLB",
+            "duration": "25",
+            "fee": 500000
+        }
+    ],
+    "students": [
+        {
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "regNo": "IN14/2010",
+            "year": 4,
+            "courseCode": "CS6",
+            "id": "1"
+        },
+        {
+            "id": "7947",
+            "name": "penina Wanyama",
+            "email": "wpenina@gmail.com",
+            "regNo": "SDs6/44/68",
+            "year": 3,
+            "courseCode": "CS6"
+        },
+        {
+            "name": "Mercy Wanyama",
+            "email": "mercy@dkut.co.ke",
+            "regNo": "BA/200/2025",
+            "year": 2021,
+            "courseCode": "BA",
+            "id": "583d"
+        },
+        {
+            "id": "ca68",
+            "name": "Magret Ruth",
+            "email": "maggie@gmail.com",
+            "regNo": "PSC/200/2010",
+            "year": 2010,
+            "courseCode": "PSC"
+        },
+        {
+            "id": "c5ae",
+            "name": "Walter Nyasinga",
+            "email": "nyasinga@gmail.com",
+            "regNo": "IT/2000/2014",
+            "year": 2014,
+            "courseCode": "DS5"
+        },
+        {
+            "name": "Amina Ali",
+            "email": "ali@gmail.com",
+            "regNo": "TRS/300/2011",
+            "year": 2010,
+            "courseCode": "DS5",
+            "id": "1ccc"
+        }
+    ]
+}
