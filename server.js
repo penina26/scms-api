@@ -9,7 +9,7 @@ server.use(jsonServer.defaults());
 server.use(jsonServer.bodyParser);
 
 // If a Railway Volume is attached, Railway exposes its mount path in env vars
-const mountPath = process.env.RAILWAY_VOLUME_MOUNT_PATH; // e.g. /data :contentReference[oaicite:0]{index=0}
+const mountPath = process.env.RAILWAY_VOLUME_MOUNT_PATH; 
 const seedFile = path.join(process.cwd(), "db.json");
 
 // We'll store the live db.json on the volume so changes persist
